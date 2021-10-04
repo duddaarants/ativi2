@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/fundo">
+    android:background="@drawable/azul">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,7 +32,6 @@
             android:layout_gravity="center"
             android:layout_marginTop="90dp"
             android:src="@drawable/ic_baseline_arrow_drop_down_circle_24"
-
             />
 
         <TextView
@@ -95,7 +94,7 @@
             android:layout_gravity="center"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="140dp"
             />
 <LinearLayout
     android:layout_width="match_parent"
@@ -106,17 +105,30 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginRight="60dp"
+        android:layout_marginLeft="100dp"
             android:layout_gravity="center"
             android:src="@drawable/facebook"
+            android:layout_marginTop="2dp"
             />
 
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center"
-            android:src="@drawable/twitter"
-            />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+      android:layout_marginLeft="40dp"
+        android:src="@drawable/twitter"
+        android:layout_marginTop="2dp"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+      android:layout_marginLeft="40dp"
+        android:src="@drawable/linkedin"
+        android:layout_marginTop="2dp"
+        />
+
+
 </LinearLayout>
 
     </LinearLayout>
